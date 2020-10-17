@@ -46,17 +46,19 @@ if (stage != 0 && stage < ds_grid_height(sg)) {
 		
 		timer = sg[# stage, 1];
 		
-		for (var i = 0; i < sg[# stage, 2]; i += 1) {
 		
-			var _dir = irandom(359);
-			instance_create_depth(lengthdir_x(1080, _dir), lengthdir_y(1080, _dir), depth, obj_enemies_chicken);
 		
-		};
-	
 		for (var i = 0; i < sg[# stage, 3]; i += 1) {
 		
 			var _dir = irandom(359);
-			instance_create_depth(lengthdir_x(1080, _dir), lengthdir_y(1080, _dir), depth, obj_enemies_cow);
+			instance_create_depth(room_width / 2 + lengthdir_x(450, _dir), room_height / 2 + lengthdir_y(450, _dir), depth, obj_enemies_chicken);
+		
+		};
+	
+		for (var i = 0; i < sg[# stage, 4]; i += 1) {
+		
+			var _dir = irandom(359);
+			instance_create_depth(room_width / 2 + lengthdir_x(450, _dir), room_height / 2 + lengthdir_y(450, _dir), depth, obj_enemies_cow);
 		
 		};
 		
