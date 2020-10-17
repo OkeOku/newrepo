@@ -32,7 +32,7 @@ switch (state) {
 				
 				if (!is_undefined(_id)) {
 				
-					if (_id.index != _id.image_number - 1) {
+					if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
 			
 						// Go get water
 						state = state_gotoWater;
@@ -98,7 +98,7 @@ switch (state) {
 				
 				if (!is_undefined(_id)) {
 				
-					if (_id.index != _id.image_number - 1) {
+					if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
 						
 						target	= _id;
 						state	= state_gotoPlants;
@@ -148,7 +148,7 @@ switch (state) {
 		if (water = 0) {
 			
 			state = state_idle;
-			target.image_index += 1;
+			target.growth += 1;
 			target = -1;
 			
 		};

@@ -2,6 +2,7 @@
 depth						= -10;
 building_selection			= -1;
 
+global.water			= 10
 global.seeds			= 1;
 global.building_list	= ds_list_create();
 
@@ -15,3 +16,7 @@ global.building_list	= ds_list_create();
 #macro state_fillWater		2
 #macro state_gotoPlants		3
 #macro state_waterPlants	4
+
+#macro chicken_moving		0
+#macro chicken_drinking		1
+#macro chicken_fleeing		2
