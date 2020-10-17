@@ -1,6 +1,13 @@
 // Draw GUI
-draw_set_colour(make_color_rgb(75, 75, 75));
-	
+if (global.build_mode == true)
+{
+	draw_set_colour(make_color_rgb(75,75,100));
+}
+else
+{
+	draw_set_colour(make_color_rgb(75, 75, 75));
+}
+
 	draw_rectangle(0, room_height - 64, room_width, room_height, false);
 	
 draw_set_color(c_ltgray);
