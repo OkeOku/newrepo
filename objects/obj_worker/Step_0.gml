@@ -23,28 +23,25 @@ switch (state) {
 		// Action
 		
 		
-		// Break
-		if (water < 1) {
+		// Break	
+		for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
 			
-			for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
-				
-				var _id = global.building_list[| i];
-				
-				if (!is_undefined(_id)) {
-				
-					if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
+			var _id = global.building_list[| i];
 			
-						// Go get water
-						state = state_gotoWater;
-						break;
-						
-					};
+			if (!is_undefined(_id)) {
+			
+				if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
+					
+					// Go get water
+					state = state_gotoWater;
+					break;
 					
 				};
 				
 			};
 			
 		};
+
 		
 	break;
 	
@@ -148,7 +145,7 @@ switch (state) {
 		if (water = 0) {
 			
 			state = state_idle;
-			target.growth += 1;
+			if (target.growth < sprite_get_number(target.sprite_base) - 1) { target.growth += 1 };
 			target = -1;
 			
 		};
