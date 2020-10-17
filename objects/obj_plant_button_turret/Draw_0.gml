@@ -1,3 +1,2 @@
 // Inherit the parent event
-//event_inherited();
-draw_self();
+event_inherited();
