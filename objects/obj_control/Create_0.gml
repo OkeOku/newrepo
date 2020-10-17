@@ -3,6 +3,8 @@ depth						= -10;
 selected					= -1;
 building_selection			= -1;
 
+global.building_list = ds_list_create();
+
 
 // -- Macros --
 #macro building_null		-1

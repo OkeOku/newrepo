@@ -1,3 +1,8 @@
+// -- Horizontal Animation -- 
+if (x > xprevious) { image_xscale = 1 };
+if (x < xprevious) { image_xscale = -1 };
+
+
 // -- Ai state machine -- 
 switch (state) {
 	
@@ -36,7 +41,7 @@ switch (state) {
 		// Animation
 		if (water < 1) {
 			
-			sprite_index = spr_worker_stand_1;
+			sprite_index = spr_worker_walk_1;
 			
 		} else {
 			
@@ -71,9 +76,24 @@ switch (state) {
 		// Break
 		if (water >= 100) {
 			
-			// add finding plants here
 			state = state_idle;
-			break;
+			
+			for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
+				
+				var _id = global.building_list[| i];
+				
+				if (!is_undefined(_id)) {
+				
+					if (_id.image_index != _id.image_number - 1) {
+						
+						target	= _id;
+						state	= state_gotoPlants;
+						
+					};
+				
+				};
+				
+			};
 			
 		};
 		
@@ -83,19 +103,24 @@ switch (state) {
 	case state_gotoPlants:
 		
 		// Animation
-		
+		sprite_index = spr_worker_walkWithWater_1;
 		
 		// Action
+		if (instance_exists(target)) {
 		
+			motion_set(point_direction(x, y, target.x, target.y), move_speed);
+			
+		};
 		
 		// Break
-		
+		if (distance_to_point(target.x + 8, target.y + 8) < 8) {
+			
+			target.image_index += 1;
+			target	= -1;
+			water	= 0;
+			state = state_gotoWater;
+			
+		};
 		
 	break;
 };
-
-
-
-// -- Horizontal Animation -- 
-if (x > xprevious) { image_xscale = 1 };
-if (x < xprevious) { image_xscale = -1 };
