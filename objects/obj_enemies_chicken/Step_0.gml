@@ -15,8 +15,45 @@ switch (state) {
 			speed = 0;
 			
 		};
+		if (instance_exists(obj_building))
+		{
+		if (distance_to_point(instance_nearest(x,y,obj_building).x, instance_nearest(x,y,obj_building).y) < 8) {
+			
+			state = chicken_fighting;
+			speed = 0;
+			
+		}	
+		};
 		
 	break;
+	
+	case chicken_fighting:
+		
+		// Animate
+		sprite_index = spr_enemy_chicken_drinking;
+		
+		// Break
+		if (instance_exists(obj_building))
+		{
+			if (distance_to_point(instance_nearest(x,y,obj_building).x, instance_nearest(x,y,obj_building).y) > 8) {
+			
+				if (water >= 80)
+				{
+					state = chicken_fleeing;
+				}
+				else
+				{
+					state = chicken_moving;
+				}
+				
+			}	
+			//attack
+			instance_nearest(x,y,obj_building).strength -= 0.5;
+		}
+		else
+		{
+			state = chicken_moving;
+		}
 	
 	case chicken_drinking:
 		

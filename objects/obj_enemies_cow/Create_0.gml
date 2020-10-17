@@ -6,3 +6,4 @@ water		= 0;
 escape_dir	= irandom(359);
 image_speed = 0.2;
 rot_left	= true;
+seed_reward = choose(10,20);
