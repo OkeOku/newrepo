@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_building_basic_head",
-    "path": "sprites/spr_building_basic_head/spr_building_basic_head.yy",
+    "name": "spr_button_turret",
+    "path": "sprites/spr_button_turret/spr_button_turret.yy",
   },
   "solid": false,
   "visible": true,

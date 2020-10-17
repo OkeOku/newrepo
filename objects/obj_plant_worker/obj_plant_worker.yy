@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_worker_stand_1",
-    "path": "sprites/spr_worker_stand_1/spr_worker_stand_1.yy",
+    "name": "spr_button_worker",
+    "path": "sprites/spr_button_worker/spr_button_worker.yy",
   },
   "solid": false,
   "visible": true,

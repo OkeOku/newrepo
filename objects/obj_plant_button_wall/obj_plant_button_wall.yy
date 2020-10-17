@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_building_wall",
-    "path": "sprites/spr_building_wall/spr_building_wall.yy",
+    "name": "spr_button_wall",
+    "path": "sprites/spr_button_wall/spr_button_wall.yy",
   },
   "solid": false,
   "visible": true,

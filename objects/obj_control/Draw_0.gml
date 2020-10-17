@@ -8,7 +8,7 @@ else
 	draw_set_colour(make_color_rgb(75, 75, 75));
 }
 
-	draw_rectangle(0, room_height - 64, room_width, room_height, false);
+	draw_rectangle(0, room_height - 68, room_width, room_height, false);
 	
 draw_set_color(c_ltgray);
 	
