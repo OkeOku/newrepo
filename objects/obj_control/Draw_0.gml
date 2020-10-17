@@ -22,6 +22,35 @@ draw_set_color(c_ltgray);
 		
 			draw_rectangle(_x, _y, _x + 16, _y + 16, true);
 			draw_sprite(spr_building_basic_base, sprite_get_number(spr_building_basic_base) - 1, _x, _y);
+			
+			for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
+				
+				var _id = global.building_list[| i];
+				
+				if (!is_undefined(_id)) {
+				
+					if (_id.x != _x && _id.y != y) {
+						
+						can_build = true;
+						
+					};
+				else
+				{
+					can_build = false;
+				}
+				
+				};
+				
+			};
+			
+			//build stuff
+			if (mouse_check_button_pressed(mb_left))
+			{
+				if (can_build == true)
+				{
+					instance_create_depth(_x, _y,self.depth,obj_building_basic);
+				}
+			}
 		
 		draw_set_alpha(1);
 		
