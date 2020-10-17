@@ -13,6 +13,7 @@
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
     {"id":{"name":"spr_water_mask","path":"sprites/spr_water_mask/spr_water_mask.yy",},"order":2,},
     {"id":{"name":"spr_worker_getWater_1","path":"sprites/spr_worker_getWater_1/spr_worker_getWater_1.yy",},"order":2,},
+    {"id":{"name":"spr_building_basic_head","path":"sprites/spr_building_basic_head/spr_building_basic_head.yy",},"order":1,},
     {"id":{"name":"spr_worker_walk_2","path":"sprites/spr_worker_walk_2/spr_worker_walk_2.yy",},"order":1,},
     {"id":{"name":"spr_worker_stand_2","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"order":0,},
     {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":0,},

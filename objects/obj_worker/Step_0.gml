@@ -32,7 +32,7 @@ switch (state) {
 				
 				if (!is_undefined(_id)) {
 				
-					if (_id.image_index != _id.image_number - 1) {
+					if (_id.index != _id.image_number - 1) {
 			
 						// Go get water
 						state = state_gotoWater;
@@ -98,7 +98,7 @@ switch (state) {
 				
 				if (!is_undefined(_id)) {
 				
-					if (_id.image_index != _id.image_number - 1) {
+					if (_id.index != _id.image_number - 1) {
 						
 						target	= _id;
 						state	= state_gotoPlants;
