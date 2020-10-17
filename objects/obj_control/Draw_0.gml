@@ -17,11 +17,16 @@ draw_set_color(c_ltgray);
 		mouse_y <room_height - 96
 		
 	) {
-	
-		draw_rectangle(_x + 1, _y + 1, _x + 15, _y + 15, true);
-	
+		
+		draw_set_alpha(0.25);
+		
+			draw_rectangle(_x, _y, _x + 16, _y + 16, true);
+			draw_sprite(spr_building_basic_base, sprite_get_number(spr_building_basic_base) - 1, _x, _y);
+		
+		draw_set_alpha(1);
+		
 	};
 	
 draw_set_colour(c_black);
 
-// draw_text(8, 8, string(building_selection));
+draw_text(8, 8, "Seeds: " + string(global.seeds));
