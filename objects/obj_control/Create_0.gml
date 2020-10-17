@@ -2,10 +2,10 @@
 depth						= -10;
 building_selection			= -1;
 
-global.build_mode = true;
+global.build_mode = false;
 
 global.water			= 10
-global.seeds			= 20;
+global.seeds			= 40;
 global.building_list	= ds_list_create();
 
 

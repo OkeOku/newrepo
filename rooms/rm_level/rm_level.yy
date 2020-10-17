@@ -14,6 +14,9 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_plant_button_turret","path":"objects/obj_plant_button_turret/obj_plant_button_turret.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":57.0,"y":288.0,"resourceVersion":"1.0","name":"inst_31086E7B","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":-100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"buttons","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":136.0,"y":136.0,"resourceVersion":"1.0","name":"inst_3E00C443","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":80.0,"resourceVersion":"1.0","name":"inst_784BCBB7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2DF49746","tags":[],"resourceType":"GMRInstance",},
@@ -64,6 +67,7 @@
     {"name":"inst_300418AB","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_1CA86681","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_5E7C1B83","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"inst_31086E7B","path":"rooms/rm_level/rm_level.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
