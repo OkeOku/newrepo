@@ -2,7 +2,7 @@
 depth						= -10;
 building_selection			= -1;
 
-global.build_mode = false;
+global.build_mode = true;
 
 global.water			= 10
 global.seeds			= 20;
