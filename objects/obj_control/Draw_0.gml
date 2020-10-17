@@ -40,15 +40,11 @@ draw_set_color(c_ltgray);
 				
 				if (!is_undefined(_id)) {
 				
-					if (_id.x != _x && _id.y != y) {
+					if (_id.x = _x && _id.y = _y) {
 						
-						can_build = true;
+						can_build = false;
 						
 					};
-				else
-				{
-					can_build = false;
-				}
 				
 				};
 				
