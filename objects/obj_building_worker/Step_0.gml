@@ -1,12 +1,15 @@
 event_inherited();
 
 
-if (growth = sprite_get_number(sprite_base)-1)
+if (active == true && growth = sprite_get_number(sprite_base)-1)
 {
-	pos = ds_list_find_index(global.building_list, id);
-	ds_list_replace(global.building_list, pos, undefined);
+	//pos = ds_list_find_index(global.building_list, id);
+	//ds_list_replace(global.building_list, pos, undefined);
 	instance_create_depth(x,y,depth,obj_worker);
-	instance_destroy();
+	x = -100;
+	y = -100;
+	active = false;
+	//instance_destroy();
 }
 /* Fight
 if (growth = sprite_get_number(sprite_base) - 1) {
