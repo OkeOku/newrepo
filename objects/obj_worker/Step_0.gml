@@ -125,10 +125,13 @@ switch (state) {
 		};
 		
 		// Break
+		if (!is_undefined(target.x)) {
 		if (distance_to_point(target.x + 8, target.y + 8) < 8) {
 			
 			state = state_waterPlants;
 			speed = 0;
+			
+		};
 			
 		};
 		
