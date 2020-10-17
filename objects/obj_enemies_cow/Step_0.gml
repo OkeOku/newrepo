@@ -46,15 +46,17 @@ switch (state) {
 				{
 					state = chicken_moving;
 				}
+				
 			}	
+			//attack
+			instance_nearest(x,y,obj_building).strength -= 1;
 		}
 		else
 		{
 			state = chicken_moving;
 		}
 		
-		//attack
-		instance_nearest(x,y,obj_building).strength -= 1;
+		
 		
 	break;
 	
