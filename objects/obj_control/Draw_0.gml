@@ -18,10 +18,10 @@ draw_set_color(c_ltgray);
 
 	if (
 		
-		mouse_x > 32 &&
-		mouse_x < room_width - 32 &&
-		mouse_y > 32 &&
-		mouse_y <room_height - 96
+		mouse_x > 382 &&
+		mouse_x < 590 &&
+		mouse_y > 176 &&
+		mouse_y < 385
 		
 	) {
 		
