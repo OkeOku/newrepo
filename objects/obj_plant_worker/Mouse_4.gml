@@ -1,4 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-global.plant_what_now = type;
+if (global.seeds > (cost-1) && global.build_mode == false)
+{
+	global.build_mode = true;
+	global.seeds -= cost;
+}
