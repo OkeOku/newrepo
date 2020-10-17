@@ -1,0 +1,1 @@
+type = obj_building_basic;
