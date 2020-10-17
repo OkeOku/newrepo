@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9483e2a0-19c0-42fa-868b-346069187096","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "variant 1",
-    "path": "folders/Sprites/workers/variant 1.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_worker_stand_1",

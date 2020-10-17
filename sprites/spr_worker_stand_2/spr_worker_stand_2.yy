@@ -24,12 +24,12 @@
   "gridX": 8,
   "gridY": 8,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"LayerId":{"name":"9483e2a0-19c0-42fa-868b-346069187096","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_worker_stand_1","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"resourceVersion":"1.0","name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"LayerId":{"name":"9483e2a0-19c0-42fa-868b-346069187096","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_worker_stand_2","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"resourceVersion":"1.0","name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_worker_stand_1","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},
+    "spriteId": {"name":"spr_worker_stand_2","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e295ba23-9af1-43b7-a85b-514b94fd5748","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6b27227d-0599-44ed-9442-49b8ce180149","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfc45065-9e32-4790-8dd2-2eff4407cf6c","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_worker_stand_1","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},
+    "parent": {"name":"spr_worker_stand_2","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_worker_stand_1",
+    "name": "spr_worker_stand_2",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -68,11 +68,11 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9483e2a0-19c0-42fa-868b-346069187096","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "variant 1",
-    "path": "folders/Sprites/workers/variant 1.yy",
+    "name": "variant 2",
+    "path": "folders/Sprites/workers/variant 2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_worker_stand_1",
+  "name": "spr_worker_stand_2",
   "tags": [],
   "resourceType": "GMSprite",
 }
