@@ -1,14 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"order":1,},
     {"id":{"name":"spr_worker_stand_1","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"order":0,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":1,},
-    {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":0,},
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
+    {"id":{"name":"tst_spr_water","path":"sprites/tst_spr_water/tst_spr_water.yy",},"order":0,},
     {"id":{"name":"spr_worker_walk_2","path":"sprites/spr_worker_walk_2/spr_worker_walk_2.yy",},"order":1,},
     {"id":{"name":"spr_worker_stand_2","path":"sprites/spr_worker_stand_2/spr_worker_stand_2.yy",},"order":0,},
+    {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":0,},
     {"id":{"name":"spr_worker_walk_1","path":"sprites/spr_worker_walk_1/spr_worker_walk_1.yy",},"order":1,},
-    {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"order":1,},
-    {"id":{"name":"tst_spr_water","path":"sprites/tst_spr_water/tst_spr_water.yy",},"order":0,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":0,},
   ],
   "Options": [
