@@ -5,4 +5,4 @@ sprite_head = spr_building_basic_head;
 
 sprite_index = sprite_head;
 
-strength = 50;
+strength = 10;

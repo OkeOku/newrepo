@@ -146,9 +146,10 @@ switch (state) {
 		if (water = 0) {
 			
 			state = state_idle;
+			if (!is_undefined(target.growth)) {
 			if (target.growth < sprite_get_number(target.sprite_base) - 1) { target.growth += 1 };
 			target = -1;
-			
+			}
 		};
 		
 	break;
