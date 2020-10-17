@@ -1,12 +1,13 @@
-draw_self()
+if (selected) {
+	
+	draw_set_colour(c_lime);
+		
+		draw_ellipse(x - 6, y + 4, x + 4, y + 9, true);
+		
+	draw_set_colour(c_black);
+	
+};
+
+draw_self();
+
 draw_text(x,y,string(water));
-if (x < last_x)
-{
-	draw_sprite_ext(sprite, 0, x, y, -1,1,0,c_white,1);
-}
-else
-{
-	draw_sprite_ext(sprite, 0, x, y, 1,1,0,c_white,1);
-}
-last_x = x;
-last_y = y; 

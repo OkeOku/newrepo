@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": true,
+  "spriteId": {
+    "name": "spr_button_basic",
+    "path": "sprites/spr_button_basic/spr_button_basic.yy",
+  },
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_water",
+  "name": "obj_button_shooter",
   "tags": [],
   "resourceType": "GMObject",
 }
