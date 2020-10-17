@@ -14,3 +14,4 @@ global.building_list = ds_list_create();
 #macro state_gotoWater		1
 #macro state_fillWater		2
 #macro state_gotoPlants		3
+#macro state_waterPlants	4

@@ -1,6 +1,6 @@
 // -- Horizontal Animation -- 
-if (x > xprevious) { image_xscale = 1 };
-if (x < xprevious) { image_xscale = -1 };
+if (hspeed > 0) { image_xscale = 1 };
+if (hspeed < 0) { image_xscale = -1 };
 
 
 // -- Ai state machine -- 
@@ -26,9 +26,23 @@ switch (state) {
 		// Break
 		if (water < 1) {
 			
-			// Go get water
-			state = state_gotoWater;
-			break;
+			for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
+				
+				var _id = global.building_list[| i];
+				
+				if (!is_undefined(_id)) {
+				
+					if (_id.image_index != _id.image_number - 1) {
+			
+						// Go get water
+						state = state_gotoWater;
+						break;
+						
+					};
+					
+				};
+				
+			};
 			
 		};
 		
@@ -115,10 +129,27 @@ switch (state) {
 		// Break
 		if (distance_to_point(target.x + 8, target.y + 8) < 8) {
 			
+			state = state_waterPlants;
+			speed = 0;
+			
+		};
+		
+	break;
+	
+	case state_waterPlants:
+		
+		// Animation
+		sprite_index = spr_worker_getWater_1;
+		
+		// Action
+		water -= 1;
+		
+		// Break
+		if (water = 0) {
+			
+			state = state_idle;
 			target.image_index += 1;
-			target	= -1;
-			water	= 0;
-			state = state_gotoWater;
+			target = -1;
 			
 		};
 		
