@@ -1,0 +1,1 @@
+obj_control.building_selection = building_basic;

@@ -4,6 +4,17 @@ switch (state) {
 	
 	case state_idle:
 		
+		// Animation
+		if (water < 1) {
+			
+			sprite_index = spr_worker_stand_1;
+			
+		} else {
+			
+			sprite_index = spr_worker_standWithWater_1;
+			
+		};
+		
 		// Action
 		
 		
@@ -21,6 +32,17 @@ switch (state) {
 	
 	
 	case state_gotoWater:
+		
+		// Animation
+		if (water < 1) {
+			
+			sprite_index = spr_worker_stand_1;
+			
+		} else {
+			
+			sprite_index = spr_worker_standWithWater_1;
+			
+		};
 		
 		// Action
 		motion_set(point_direction(x, y, obj_water.x, obj_water.y), move_speed);
@@ -40,13 +62,16 @@ switch (state) {
 	
 	case state_fillWater:
 		
+		// Animation
+		sprite_index = spr_worker_getWater_1;
+		
 		// Action
 		water += 1;
 		
 		// Break
 		if (water >= 100) {
 			
-			// add finding construction blueprints here
+			// add finding plants here
 			state = state_idle;
 			break;
 			
@@ -55,6 +80,18 @@ switch (state) {
 	break;
 	
 	
+	case state_gotoPlants:
+		
+		// Animation
+		
+		
+		// Action
+		
+		
+		// Break
+		
+		
+	break;
 };
 
 
