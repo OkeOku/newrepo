@@ -10,8 +10,12 @@ if (growth = sprite_get_number(sprite_base) - 1) {
 		} else {
 			
 			image_speed = 1;
-			instance_create_depth(x + 8, y + 8, depth, obj_spore);
-			reload = 60;
+			
+			if (image_index = 7) {
+				
+				instance_create_depth(x + 8, y + 8, depth, obj_spore);
+				
+			};
 			
 		};
 		

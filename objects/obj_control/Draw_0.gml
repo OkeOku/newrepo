@@ -29,5 +29,5 @@ draw_set_color(c_ltgray);
 	
 draw_set_colour(c_black);
 
-draw_text(8, 8, "Seeds: " + string(global.seeds));
+draw_text(8, 0, "Seeds: " + string(global.seeds));
 draw_text(8, 16, "Water: " + string(global.water));
