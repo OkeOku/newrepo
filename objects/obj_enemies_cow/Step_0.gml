@@ -65,11 +65,20 @@ switch (state) {
 // -- Animation --
 if (hspeed >= 0) { image_xscale = 1 } else { image_xscale = -1 };
 
+// Rotating
 if (state != chicken_drinking) {
 	
 	if (rot_left) {
 		
-		sign(angle_difference(image_angle, ));
+		image_angle -= 1;
+		
+		if (image_angle < -23) { rot_left = false};
+		
+	} else {
+		
+		image_angle += 1;
+		
+		if (image_angle > 23) { rot_left = true };
 		
 	};
 	
