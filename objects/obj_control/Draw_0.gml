@@ -59,7 +59,7 @@ draw_set_color(c_ltgray);
 			{
 				if (can_build == true)
 				{
-					instance_create_depth(_x, _y,self.depth,obj_building_basic);
+					instance_create_depth(_x, _y,self.depth,global.plant_what_now);
 					global.build_mode = false;
 				}
 			}

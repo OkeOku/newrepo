@@ -63,6 +63,7 @@ switch (state) {
 		// Action
 		motion_set(point_direction(x, y, obj_water.x, obj_water.y), move_speed);
 		
+		
 		// Break
 		if (distance_to_object(obj_water) < 8) {
 			

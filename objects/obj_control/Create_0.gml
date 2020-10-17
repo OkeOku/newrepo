@@ -3,6 +3,7 @@ depth						= -10;
 building_selection			= -1;
 
 global.build_mode = false;
+global.plant_what_now = obj_building_wall;
 
 global.water			= 10
 global.seeds			= 40;
@@ -22,3 +23,4 @@ global.building_list	= ds_list_create();
 #macro chicken_moving		0
 #macro chicken_drinking		1
 #macro chicken_fleeing		2
+#macro chicken_fighting		3

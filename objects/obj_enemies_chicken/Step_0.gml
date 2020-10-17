@@ -18,7 +18,6 @@ switch (state) {
 		
 	break;
 	
-	
 	case chicken_drinking:
 		
 		// Animate
