@@ -1,4 +1,4 @@
-if (instance_number(obj_enemies_chicken) < 1 && instance_number(obj_enemies_chicken) < 1)
+if (instance_number(obj_enemies_chicken) < 1 && instance_number(obj_enemies_cow) < 1)
 		{
 			if (global.seeds_buffer > 0)
 			{

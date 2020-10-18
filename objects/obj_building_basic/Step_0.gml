@@ -1,7 +1,12 @@
 event_inherited();
 
+if (growth = sprite_get_number(sprite_base)-1)
+{
+	growed = true;
+}
+
 // Fight
-if (growth = sprite_get_number(sprite_base) - 1) {
+if (growed == true && round(growth) = sprite_get_number(sprite_base) - 1) {
 	
 	if (instance_exists(obj_enemies) && distance_to_object(obj_enemies)<100) {
 		

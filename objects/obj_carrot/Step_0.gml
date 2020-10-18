@@ -49,8 +49,6 @@ switch (state) {
 			
 			speed = 0;
 			state = state_attackEnemy;
-			
-			
 		}
 		}
 		else
@@ -60,9 +58,31 @@ switch (state) {
 			break;
 		}
 		
+		if (distance_to_point(room_width/2, room_height/2) > 200)
+		{
+			state = state_return;
+			break;
+		}
+		
 	break;
 	
-	
+	case state_return:
+		
+		// Animation
+		sprite_index = spr_carrot_walk;
+
+		// Action
+		motion_set(point_direction(x, y, room_width / 2, room_height / 2), move_speed);
+		
+		
+		// Break
+		if (distance_to_point(room_width / 2, room_height /2) < 32) {
+			
+			speed = 0;
+			state = state_idle;
+			break;
+		}
+	break;	
 	
 	case state_attackEnemy:
 		
