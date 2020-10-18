@@ -1,6 +1,11 @@
 // Draw GUI
 if (global.build_mode == true)
 {
+	if(keyboard_check_pressed(ord("X")))
+			{
+				global.build_mode = false;
+				global.seeds += global.last_payment;
+			}
 	draw_set_colour(make_color_rgb(75,75,100));
 }
 else
@@ -28,6 +33,8 @@ draw_set_color(c_ltgray);
 		if (global.build_mode = true)
 		{
 			//draw_set_alpha(0.25);
+			
+			
 		
 			draw_rectangle(_x, _y, _x + 16, _y + 16, true);
 			draw_sprite_ext(global.sprite_what_now, sprite_get_number(global.sprite_what_now) - 1, _x, _y,0.66,0.66,0,c_white,0.50);
@@ -51,11 +58,6 @@ draw_set_color(c_ltgray);
 			};
 			
 			//build stuff
-			if(keyboard_check_pressed(ord("X")))
-			{
-				global.build_mode = false;
-				global.seeds += global.last_payment;
-			}
 			
 			if (mouse_check_button_pressed(mb_left))
 			{
@@ -74,6 +76,6 @@ draw_set_color(c_ltgray);
 draw_set_colour(c_black);
 
 //draw_text(8, 0, "Seeds: " + string(global.seeds));
-draw_text(8, 16, "Water: " + string(global.water));
+//draw_text(8, 16, "Water: " + string(global.water));
 draw_text(8, 32, "Chickens: " + string(instance_number(obj_enemies_chicken)));
 draw_text(8, 48, "Cows: " + string(instance_number(obj_enemies_cow)));
