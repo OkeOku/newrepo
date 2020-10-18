@@ -1,3 +1,3 @@
 type = obj_building_basic;
-cost = 20;
+cost = 15;
 name = "turret";
