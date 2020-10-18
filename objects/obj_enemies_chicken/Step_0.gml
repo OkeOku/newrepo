@@ -68,29 +68,11 @@ if (hp > 0) {
 				
 				}	
 				//attack
-				instance_nearest(x,y,obj_building).growth -= 0.3;
+				instance_nearest(x,y,obj_building).growth -= 3;
 				state = chicken_chewing;
 				wait = 100;
 				break;
 			}
-			if (instance_exists(obj_carrot))
-			{
-				if (distance_to_point(instance_nearest(x,y,obj_carrot).x, instance_nearest(x,y,obj_carrot).y) > 10) {
-			
-					if (water >= 80)
-					{
-						state = chicken_fleeing;
-					}
-					else
-					{
-						state = chicken_moving;
-					}
-				
-				}	
-				state = chicken_chewing;
-				wait = 100;
-				break;
-				}
 				
 				state = chicken_moving;
 				break;
