@@ -19,7 +19,7 @@ if (stage != 0) {
 		stage += 1;
 		
 		
-		chicken_count	= clamp(stage / 0.9 + 3, 3, 100);
+		chicken_count	= clamp(stage / 0.9, 1, 100);
 		cow_count		= clamp(stage / 2 - 2, 0, 100);
 		
 		
