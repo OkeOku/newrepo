@@ -52,7 +52,7 @@ if (hp > 0) {
 				//attack
 				instance_nearest(x,y,obj_building).growth -= 0.5;
 				state = chicken_chewing;
-				wait = 60;
+				wait = 100;
 			}
 			else
 			{
@@ -88,12 +88,7 @@ if (hp > 0) {
 			motion_set(escape_dir, move_speed / 2);
 		
 			// Break
-			if (
-				x < -32 ||
-				x > room_width + 32 ||
-				y < -32 ||
-				y > 304 // 272 + 32
-			) {
+			if (distance_to_point(room_width / 2, room_height / 2) > 1200) {
 			
 				instance_destroy()
 				global.water -= 1;

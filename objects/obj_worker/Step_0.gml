@@ -28,9 +28,10 @@ switch (state) {
 			
 			var _id = global.building_list[| i];
 			
-			if (!is_undefined(_id)) {
 			
-				if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
+			if (instance_exists(_id)) {
+			
+				if (_id.growth < sprite_get_number(_id.sprite_base) - 1) {
 					
 					// Go get water
 					state = state_gotoWater;
@@ -94,9 +95,9 @@ switch (state) {
 				
 				var _id = global.building_list[| i];
 				
-				if (!is_undefined(_id)) {
+				if (instance_exists(_id)) {
 				
-					if (_id.growth != sprite_get_number(_id.sprite_base) - 1) {
+					if (_id.growth < sprite_get_number(_id.sprite_base) - 1) {
 						
 						target	= _id;
 						state	= state_gotoPlants;
