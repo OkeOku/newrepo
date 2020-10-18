@@ -24,3 +24,4 @@ global.building_list	= ds_list_create();
 #macro chicken_drinking		1
 #macro chicken_fleeing		2
 #macro chicken_fighting		3
+#macro chicken_chewing		4

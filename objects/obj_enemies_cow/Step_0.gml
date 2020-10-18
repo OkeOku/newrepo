@@ -51,7 +51,7 @@ if (hp > 0) {
 				
 				}	
 				//attack
-				instance_nearest(x,y,obj_building).strength -= 1;
+				instance_nearest(x,y,obj_building).growth -= 1;
 			}
 			else
 			{

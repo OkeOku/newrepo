@@ -50,12 +50,16 @@ if (hp > 0) {
 				
 				}	
 				//attack
-				instance_nearest(x,y,obj_building).strength -= 0.5;
+				instance_nearest(x,y,obj_building).growth -= 0.5;
+				state = chicken_chewing;
+				wait = 60;
 			}
 			else
 			{
 				state = chicken_moving;
 			}
+			
+		break;
 	
 		case chicken_drinking:
 		
@@ -97,6 +101,23 @@ if (hp > 0) {
 			};
 		
 		
+		break;
+		
+		
+		case chicken_chewing:
+			
+			// Animate
+			
+			// Action
+			wait -= 1;
+			
+			// Break
+			if (wait <= 0) {
+				
+				state = chicken_moving;
+				
+			};
+			
 		break;
 	};
 

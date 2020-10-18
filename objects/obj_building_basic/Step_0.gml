@@ -1,3 +1,5 @@
+event_inherited();
+
 // Fight
 if (growth = sprite_get_number(sprite_base) - 1) {
 	

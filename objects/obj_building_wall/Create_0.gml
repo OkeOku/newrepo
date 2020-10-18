@@ -4,5 +4,3 @@ sprite_base = spr_building_wall;
 sprite_head = undefined;
 
 sprite_index = sprite_base;
-
-strength = 20;
