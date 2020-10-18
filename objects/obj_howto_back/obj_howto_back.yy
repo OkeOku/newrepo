@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_how_to",
-    "path": "sprites/spr_how_to/spr_how_to.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_button_how_to","path":"objects/obj_button_how_to/obj_button_how_to.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_howto_back","path":"objects/obj_howto_back/obj_howto_back.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_howto_back","path":"objects/obj_howto_back/obj_howto_back.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +28,7 @@
     "path": "folders/Objects/main.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_button_how_to",
+  "name": "obj_howto_back",
   "tags": [],
   "resourceType": "GMObject",
 }

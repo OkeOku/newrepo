@@ -30,9 +30,11 @@
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":1,},
     {"id":{"name":"obj_plant_worker","path":"objects/obj_plant_worker/obj_plant_worker.yy",},"order":4,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":3,},
+    {"id":{"name":"obj_howto_back","path":"objects/obj_howto_back/obj_howto_back.yy",},"order":4,},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},"order":3,},
     {"id":{"name":"seed_big_font","path":"fonts/seed_big_font/seed_big_font.yy",},"order":2,},
     {"id":{"name":"obj_button_basic","path":"objects/obj_button_basic/obj_button_basic.yy",},"order":0,},
+    {"id":{"name":"sound_controller_menus","path":"objects/sound_controller_menus/sound_controller_menus.yy",},"order":13,},
     {"id":{"name":"obj_seed_reward","path":"objects/obj_seed_reward/obj_seed_reward.yy",},"order":9,},
     {"id":{"name":"spr_enemy_chicken_death","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"order":2,},
     {"id":{"name":"spr_button_wall","path":"sprites/spr_button_wall/spr_button_wall.yy",},"order":4,},
@@ -47,6 +49,7 @@
     {"id":{"name":"spr_building_basic_head","path":"sprites/spr_building_basic_head/spr_building_basic_head.yy",},"order":1,},
     {"id":{"name":"spr_tileset_title","path":"sprites/spr_tileset_title/spr_tileset_title.yy",},"order":9,},
     {"id":{"name":"obj_spore","path":"objects/obj_spore/obj_spore.yy",},"order":6,},
+    {"id":{"name":"rm_howto","path":"rooms/rm_howto/rm_howto.yy",},"order":2,},
     {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},"order":1,},
     {"id":{"name":"spr_carrot_walk","path":"sprites/spr_carrot_walk/spr_carrot_walk.yy",},"order":1,},
     {"id":{"name":"background_raid","path":"sounds/background_raid/background_raid.yy",},"order":1,},
@@ -76,6 +79,7 @@
     {"id":{"name":"obj_tainted_water","path":"objects/obj_tainted_water/obj_tainted_water.yy",},"order":8,},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":0,},
     {"id":{"name":"spr_enemy_chicken","path":"sprites/spr_enemy_chicken/spr_enemy_chicken.yy",},"order":0,},
+    {"id":{"name":"bk_howto","path":"sprites/bk_howto/bk_howto.yy",},"order":10,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":0,},
   ],
   "Options": [
@@ -98,6 +102,7 @@
   "RoomOrder": [
     {"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},
     {"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"rm_howto","path":"rooms/rm_howto/rm_howto.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

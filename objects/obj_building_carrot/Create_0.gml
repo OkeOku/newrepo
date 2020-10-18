@@ -8,6 +8,8 @@ sprite_head = undefined;
 
 active = true;
 
+description = "Carrot: Is it a carrot, or a man in a carrot suit? Can run towards enemies, but careful, he won't last long!"
+
 sprite_index = sprite_base;
 
 strength = 50;

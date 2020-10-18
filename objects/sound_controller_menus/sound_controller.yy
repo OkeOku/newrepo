@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_how_to",
-    "path": "sprites/spr_how_to/spr_how_to.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_button_how_to","path":"objects/obj_button_how_to/obj_button_how_to.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"sound_controller","path":"objects/sound_controller/sound_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"sound_controller","path":"objects/sound_controller/sound_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main",
-    "path": "folders/Objects/main.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_button_how_to",
+  "name": "sound_controller",
   "tags": [],
   "resourceType": "GMObject",
 }
