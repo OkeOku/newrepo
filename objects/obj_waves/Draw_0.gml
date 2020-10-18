@@ -6,29 +6,27 @@ if (stage = 0 && ds_list_size(global.building_list) > 0) {
 	
 };
 
-if (stage != 0 && stage < ds_grid_height(sg)) {
+if (stage != 0) {
 	
 	if (timer = 0) {
 		
-		if (stage < ds_grid_height(sg)) { stage += 1 } else {
-			
-			show_message("You Win!");
-			game_end();
-			
-		};
+		timer = 1000;
 		
-		timer = sg[# stage, 1];
+		stage += 1;
 		
 		
+		chicken_count	= clamp(stage / 0.9 + 3, 3, 100);
+		cow_count		= clamp(stage / 2 - 2, 0, 100);
 		
-		for (var i = 0; i < sg[# stage, 3]; i += 1) {
+		
+		for (var i = 0; i < chicken_count; i += 1) {
 		
 			var _dir = irandom(359);
 			instance_create_depth(room_width / 2 + lengthdir_x(450, _dir), room_height / 2 + lengthdir_y(450, _dir), depth, obj_enemies_chicken);
 		
 		};
 	
-		for (var i = 0; i < sg[# stage, 4]; i += 1) {
+		for (var i = 0; i < cow_count; i += 1) {
 		
 			var _dir = irandom(359);
 			instance_create_depth(room_width / 2 + lengthdir_x(450, _dir), room_height / 2 + lengthdir_y(450, _dir), depth, obj_enemies_cow);
