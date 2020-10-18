@@ -17,6 +17,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_plant_button_turret","path":"objects/obj_plant_button_turret/obj_plant_button_turret.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.9333334,"scaleY":1.9333334,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":480.0,"resourceVersion":"1.0","name":"inst_31086E7B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_plant_worker","path":"objects/obj_plant_worker/obj_plant_worker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.9333334,"scaleY":1.9333334,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":480.0,"resourceVersion":"1.0","name":"inst_70DB67","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_plant_button_wall","path":"objects/obj_plant_button_wall/obj_plant_button_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.93333316,"scaleY":1.9333334,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":480.0,"resourceVersion":"1.0","name":"inst_40E4F6E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_seed_visual","path":"objects/obj_seed_visual/obj_seed_visual.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":496.0,"resourceVersion":"1.0","name":"inst_1FFE15C5","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"buttons","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":488.0,"y":282.0,"resourceVersion":"1.0","name":"inst_3E00C443","tags":[],"resourceType":"GMRInstance",},
@@ -75,6 +76,7 @@
     {"name":"inst_70DB67","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_416802D1","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_40E4F6E","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"inst_1FFE15C5","path":"rooms/rm_level/rm_level.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
