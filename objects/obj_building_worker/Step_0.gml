@@ -11,6 +11,8 @@ if (active == true && growth >= sprite_get_number(sprite_base) - 1)
 	active = false;
 	instance_destroy();
 }
+
+depth = y * -1;
 /* Fight
 if (growth = sprite_get_number(sprite_base) - 1) {
 	

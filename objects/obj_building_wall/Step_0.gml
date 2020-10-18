@@ -1,5 +1,7 @@
 event_inherited();
 
+depth = y * -1;
+
 /* Fight
 if (growth = sprite_get_number(sprite_base) - 1) {
 	

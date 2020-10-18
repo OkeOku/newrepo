@@ -14,7 +14,15 @@ else
 	}
 }
 
-draw_sprite_ext(sprite_index,0,x,y,2,2,0,c_white,alpha);
+if (global.seeds < cost)
+{
+	color = c_dkgray;
+}
+else
+{
+	color = c_white;
+}
+draw_sprite_ext(sprite_index,0,x,y,2,2,0,color,alpha);
 
 draw_set_alpha(1);
 

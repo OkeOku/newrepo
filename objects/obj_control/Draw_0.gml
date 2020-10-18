@@ -1,20 +1,3 @@
-// Draw GUI
-if (global.build_mode == true)
-{
-	if(keyboard_check_pressed(ord("X")))
-			{
-				global.build_mode = false;
-				global.seeds += global.last_payment;
-			}
-	draw_set_colour(make_color_rgb(75,75,100));
-}
-else
-{
-	draw_set_colour(make_color_rgb(75, 75, 75));
-}
-
-	draw_rectangle(0, room_height - 68, room_width, room_height, false);
-	
 draw_set_color(c_ltgray);
 	
 	// Draw selection square

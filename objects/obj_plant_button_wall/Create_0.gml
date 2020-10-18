@@ -1,3 +1,5 @@
+color = c_white;
+
 type = obj_building_wall;
 cost = 1;
 name = "shrub";

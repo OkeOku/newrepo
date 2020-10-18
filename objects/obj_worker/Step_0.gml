@@ -8,6 +8,22 @@ if (distance_to_point(room_width/2,room_height/2) > 300)
 	instance_destroy();
 }
 
+if (check < 0)
+{
+	check = 1500;
+	if (x = last_x && y = last_y)
+	{
+		instance_create_depth(room_width/2, room_height/2,depth,obj_worker);
+		instance_destroy();
+	}
+	else
+	{
+		last_x = x;
+		last_y = y;
+	}
+}
+check -= 1;
+
 // -- Ai state machine -- 
 switch (state) {
 	
@@ -187,4 +203,4 @@ switch (state) {
 	break;
 };
 
-depth = y * -1
+depth = y * -1;

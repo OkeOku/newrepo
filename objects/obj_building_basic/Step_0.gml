@@ -24,3 +24,5 @@ if (round(growth) = sprite_get_number(sprite_base) - 1) {
 	};
 	
 };
+
+depth = y * -1;

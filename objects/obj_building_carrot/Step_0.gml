@@ -8,3 +8,5 @@ if (active == true && growth >= sprite_get_number(sprite_base) - 1)
 	active = false;
 	instance_destroy();
 }
+
+depth = y * -1;

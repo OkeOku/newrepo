@@ -14,7 +14,7 @@ if (stage != 0) {
 		
 		raid = true;
 		
-		timer = 1200;
+		timer = choose(1200,2400);
 		
 		stage += 1;
 		
