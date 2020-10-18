@@ -19,7 +19,7 @@ if (hp > 0) {
 			};
 			if (instance_exists(obj_building))
 			{
-			if (distance_to_point(instance_nearest(x,y,obj_building).x, instance_nearest(x,y,obj_building).y) < 8) {
+			if (distance_to_point(instance_nearest(x,y,obj_building).x, instance_nearest(x,y,obj_building).y) < 7) {
 			
 				state = chicken_fighting;
 				speed = 0;

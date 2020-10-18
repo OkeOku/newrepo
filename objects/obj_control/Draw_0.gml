@@ -56,7 +56,9 @@ draw_set_color(c_ltgray);
 				
 				var _id = global.building_list[| i];
 				
-				if (!is_undefined(_id)) {
+				if (ds_list_find_index(global.destroyed_list, _id) = -1)
+				{
+				if (instance_exists(_id)) {
 				
 					if (_id.x = _x && _id.y = _y) {
 						
@@ -64,6 +66,7 @@ draw_set_color(c_ltgray);
 						
 					};
 				
+				};
 				};
 				
 			};

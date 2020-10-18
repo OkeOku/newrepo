@@ -28,7 +28,8 @@ switch (state) {
 			
 			var _id = global.building_list[| i];
 			
-			
+			if (ds_list_find_index(global.destroyed_list, _id) = -1)
+			{
 			if (instance_exists(_id)) {
 			
 				if (_id.growth < sprite_get_number(_id.sprite_base) - 1) {
@@ -39,6 +40,7 @@ switch (state) {
 					
 				};
 				
+			};
 			};
 			
 		};
@@ -95,7 +97,9 @@ switch (state) {
 				
 				var _id = global.building_list[| i];
 				
-				if (instance_exists(_id)) {
+				if (ds_list_find_index(global.destroyed_list, _id) = -1)
+				{
+				if (instance_exists(real(_id))) {
 				
 					if (_id.growth < sprite_get_number(_id.sprite_base) - 1) {
 						
@@ -104,6 +108,7 @@ switch (state) {
 						
 					};
 				
+				};
 				};
 				
 			};

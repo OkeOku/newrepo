@@ -8,6 +8,7 @@ global.plant_what_now = obj_building_wall;
 global.water			= 10
 global.seeds			= 40;
 global.building_list	= ds_list_create();
+global.destroyed_list	= ds_list_create();
 
 
 // -- Macros --
