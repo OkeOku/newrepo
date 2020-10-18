@@ -186,3 +186,5 @@ switch (state) {
 		
 	break;
 };
+
+depth = y * -1
