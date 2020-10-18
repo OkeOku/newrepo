@@ -14,7 +14,7 @@ if (stage != 0) {
 		
 		raid = true;
 		
-		timer = 1000;
+		timer = 1200;
 		
 		stage += 1;
 		

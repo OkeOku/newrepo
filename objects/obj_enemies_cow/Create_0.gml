@@ -1,6 +1,6 @@
 // -- Int --
 hp			= 3;
-move_speed	= 0.3;
+move_speed	= 0.5;
 state		= chicken_moving;
 water		= 0;
 my_attack = 0.5;
