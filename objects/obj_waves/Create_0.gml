@@ -2,7 +2,7 @@
 timer = -1;
 stage = 0;
 
-sg = ds_grid_create(4, 10);
+sg = ds_grid_create(4, 4);
 
 /*
 	timer
