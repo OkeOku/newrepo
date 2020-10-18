@@ -30,7 +30,7 @@ draw_set_color(c_ltgray);
 		
 	) {
 		
-		if (mouse_x > 462 && mouse_x < 512 && mouse_y > 258 && mouse_y < 305)
+		if (mouse_x > 463 && mouse_x < 512 && mouse_y > 255 && mouse_y < 304)
 		{
 			can_build = false;
 		}
