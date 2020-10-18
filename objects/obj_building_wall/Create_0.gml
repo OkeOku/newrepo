@@ -5,4 +5,4 @@ sprite_head = undefined;
 
 sprite_index = sprite_base;
 
-strength = 50;
+strength = 20;
