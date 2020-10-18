@@ -1,3 +1,3 @@
 type = obj_building_worker;
-cost = 10;
+cost = 15;
 name = "worker"

@@ -1,3 +1,3 @@
 type = obj_building_carrot;
-cost = 10;
+cost = 5;
 name = "carrot"
