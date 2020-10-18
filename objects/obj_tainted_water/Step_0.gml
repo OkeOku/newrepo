@@ -1,0 +1,1 @@
+image_alpha = global.water*0.1;

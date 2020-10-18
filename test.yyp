@@ -42,6 +42,8 @@
     {"id":{"name":"obj_enemies_cow","path":"objects/obj_enemies_cow/obj_enemies_cow.yy",},"order":1,},
     {"id":{"name":"obj_plant_button_turret","path":"objects/obj_plant_button_turret/obj_plant_button_turret.yy",},"order":2,},
     {"id":{"name":"spr_worker_walk_1","path":"sprites/spr_worker_walk_1/spr_worker_walk_1.yy",},"order":1,},
+    {"id":{"name":"spr_water_visual","path":"sprites/spr_water_visual/spr_water_visual.yy",},"order":8,},
+    {"id":{"name":"obj_tainted_water","path":"objects/obj_tainted_water/obj_tainted_water.yy",},"order":8,},
     {"id":{"name":"spr_enemy_chicken","path":"sprites/spr_enemy_chicken/spr_enemy_chicken.yy",},"order":0,},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":0,},
   ],
