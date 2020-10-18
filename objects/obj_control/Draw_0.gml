@@ -51,9 +51,15 @@ draw_set_color(c_ltgray);
 			};
 			
 			//build stuff
+			if(keyboard_check_pressed(ord("X")))
+			{
+				global.build_mode = false;
+				global.seeds += global.last_payment;
+			}
+			
 			if (mouse_check_button_pressed(mb_left))
 			{
-				if (can_build == true)
+				if (can_build == true && global.build_mode == true)
 				{
 					instance_create_depth(_x, _y,self.depth,global.plant_what_now);
 					global.build_mode = false;
