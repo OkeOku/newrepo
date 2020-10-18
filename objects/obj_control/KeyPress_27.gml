@@ -1,1 +1,1 @@
-game_end();
+room = rm_main;
