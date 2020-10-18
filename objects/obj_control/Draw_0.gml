@@ -41,16 +41,7 @@ draw_set_color(c_ltgray);
 		if (global.build_mode = true)
 		{
 			//draw_set_alpha(0.25);
-			if (can_build = false)
-			{
-				draw_set_colour(c_red);
-			}
-			else
-			{
-				draw_set_colour(c_white);
-			}
-			draw_rectangle(_x, _y, _x + 16, _y + 16, true);
-			draw_sprite_ext(global.sprite_what_now, sprite_get_number(global.sprite_what_now) - 1, _x, _y,0.66,0.66,0,c_white,0.50);
+			
 		
 			for (var i = 0; i < ds_list_size(global.building_list); i += 1) {
 				
@@ -70,6 +61,17 @@ draw_set_color(c_ltgray);
 				};
 				
 			};
+			
+			if (can_build = false)
+			{
+				draw_set_colour(c_red);
+			}
+			else
+			{
+				draw_set_colour(c_white);
+			}
+			draw_rectangle(_x, _y, _x + 16, _y + 16, true);
+			draw_sprite_ext(global.sprite_what_now, sprite_get_number(global.sprite_what_now) - 1, _x, _y,0.66,0.66,0,c_white,0.50);
 			
 			//build stuff
 			
