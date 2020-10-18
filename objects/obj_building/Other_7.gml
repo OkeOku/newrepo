@@ -1,2 +1,2 @@
 image_speed = 0;
-reload		= 80;
+reload		= irandom_range(60, 90);
