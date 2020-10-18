@@ -39,7 +39,7 @@ if (stage != 0) {
 		
 	} else {
 		
-		if (instance_number(obj_enemies_chicken) < 1 && instance_number(obj_enemies_chicken) < 1)
+		if (instance_number(obj_enemies_chicken) < 1 && instance_number(obj_enemies_cow) < 1)
 		{
 			raid = false;
 			timer -= 1;
