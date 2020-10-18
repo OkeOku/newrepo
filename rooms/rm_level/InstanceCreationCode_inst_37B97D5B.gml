@@ -1,0 +1,1 @@
+growth = sprite_get_number(sprite_base)
