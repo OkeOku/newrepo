@@ -89,7 +89,6 @@ if (hp > 0) {
 					}
 				
 				}	
-				instance_nearest(x,y,obj_carrot).hp -= 0.5;
 				state = chicken_chewing;
 				wait = 100;
 				break;

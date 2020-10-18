@@ -51,6 +51,7 @@
     {"id":{"name":"seed_font","path":"fonts/seed_font/seed_font.yy",},"order":0,},
     {"id":{"name":"obj_building_worker","path":"objects/obj_building_worker/obj_building_worker.yy",},"order":3,},
     {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":0,},
+    {"id":{"name":"spr_carrot_deadboy","path":"sprites/spr_carrot_deadboy/spr_carrot_deadboy.yy",},"order":3,},
     {"id":{"name":"spr_enemy_chicken_death_animation","path":"sprites/spr_enemy_chicken_death_animation/spr_enemy_chicken_death_animation.yy",},"order":3,},
     {"id":{"name":"spr_enemy_cow_drinking","path":"sprites/spr_enemy_cow_drinking/spr_enemy_cow_drinking.yy",},"order":2,},
     {"id":{"name":"obj_plant_button_wall","path":"objects/obj_plant_button_wall/obj_plant_button_wall.yy",},"order":3,},
