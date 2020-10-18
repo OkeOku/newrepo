@@ -5,8 +5,6 @@ if (hp <= 0) {
 	speed = 0;
 	sprite_index = sprite_death;
 	
-	audio_play_sound(snd_death, 1, false);
-	
 }
 
 if (hp > 0) {
