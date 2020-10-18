@@ -41,6 +41,7 @@
     {"id":{"name":"obj_seed_visual","path":"objects/obj_seed_visual/obj_seed_visual.yy",},"order":5,},
     {"id":{"name":"spr_button_worker","path":"sprites/spr_button_worker/spr_button_worker.yy",},"order":2,},
     {"id":{"name":"sound_controller","path":"objects/sound_controller/sound_controller.yy",},"order":11,},
+    {"id":{"name":"spr_carrot_deadboy_animation","path":"sprites/spr_carrot_deadboy_animation/spr_carrot_deadboy_animation.yy",},"order":4,},
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
     {"id":{"name":"spr_water_mask","path":"sprites/spr_water_mask/spr_water_mask.yy",},"order":2,},
     {"id":{"name":"spr_worker_getWater_1","path":"sprites/spr_worker_getWater_1/spr_worker_getWater_1.yy",},"order":2,},
