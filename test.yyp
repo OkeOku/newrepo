@@ -8,6 +8,7 @@
     {"id":{"name":"obj_building_wall","path":"objects/obj_building_wall/obj_building_wall.yy",},"order":2,},
     {"id":{"name":"obj_building_basic","path":"objects/obj_building_basic/obj_building_basic.yy",},"order":0,},
     {"id":{"name":"spr_worker_stand_1","path":"sprites/spr_worker_stand_1/spr_worker_stand_1.yy",},"order":0,},
+    {"id":{"name":"tiny_font","path":"fonts/tiny_font/tiny_font.yy",},"order":1,},
     {"id":{"name":"obj_waves","path":"objects/obj_waves/obj_waves.yy",},"order":7,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":1,},
     {"id":{"name":"obj_plant_parent","path":"objects/obj_plant_parent/obj_plant_parent.yy",},"order":1,},

@@ -17,3 +17,12 @@ else
 draw_sprite_ext(sprite_index,0,x,y,2,2,0,c_white,alpha);
 
 draw_set_alpha(1);
+
+draw_set_font(tiny_font);
+draw_set_color(c_white);
+draw_set_alpha(0.6);
+draw_rectangle(x,y+45,x+59,y+58,false);
+draw_set_alpha(1);
+draw_set_color(c_black);
+draw_text(x+5,y+46,name + " - " + string(cost));
+draw_set_color(c_white);
