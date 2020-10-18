@@ -42,7 +42,9 @@
     {"id":{"name":"spr_water_mask","path":"sprites/spr_water_mask/spr_water_mask.yy",},"order":2,},
     {"id":{"name":"spr_worker_getWater_1","path":"sprites/spr_worker_getWater_1/spr_worker_getWater_1.yy",},"order":2,},
     {"id":{"name":"spr_building_basic_head","path":"sprites/spr_building_basic_head/spr_building_basic_head.yy",},"order":1,},
+    {"id":{"name":"spr_tileset_title","path":"sprites/spr_tileset_title/spr_tileset_title.yy",},"order":9,},
     {"id":{"name":"obj_spore","path":"objects/obj_spore/obj_spore.yy",},"order":6,},
+    {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},"order":1,},
     {"id":{"name":"spr_carrot_walk","path":"sprites/spr_carrot_walk/spr_carrot_walk.yy",},"order":1,},
     {"id":{"name":"background_raid","path":"sounds/background_raid/background_raid.yy",},"order":1,},
     {"id":{"name":"obj_enemies_chicken","path":"objects/obj_enemies_chicken/obj_enemies_chicken.yy",},"order":0,},
@@ -55,6 +57,7 @@
     {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":0,},
     {"id":{"name":"spr_carrot_deadboy","path":"sprites/spr_carrot_deadboy/spr_carrot_deadboy.yy",},"order":3,},
     {"id":{"name":"spr_enemy_chicken_death_animation","path":"sprites/spr_enemy_chicken_death_animation/spr_enemy_chicken_death_animation.yy",},"order":3,},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":0,},
     {"id":{"name":"spr_enemy_cow_drinking","path":"sprites/spr_enemy_cow_drinking/spr_enemy_cow_drinking.yy",},"order":2,},
     {"id":{"name":"obj_plant_button_wall","path":"objects/obj_plant_button_wall/obj_plant_button_wall.yy",},"order":3,},
     {"id":{"name":"spr_worker_walkWithWater_1","path":"sprites/spr_worker_walkWithWater_1/spr_worker_walkWithWater_1.yy",},"order":4,},
@@ -87,8 +90,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},
     {"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -119,6 +122,7 @@
     {"folderPath":"folders/Sprites/enemies/cow.yy","order":1,"resourceVersion":"1.0","name":"cow","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/music.yy","order":3,"resourceVersion":"1.0","name":"music","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/main.yy","order":8,"resourceVersion":"1.0","name":"main","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/main.yy","order":12,"resourceVersion":"1.0","name":"main","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
