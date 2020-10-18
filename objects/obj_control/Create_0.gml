@@ -23,6 +23,7 @@ global.destroyed_list	= ds_list_create();
 #macro state_waterPlants	4
 #macro state_gotoEnemies	5
 #macro state_attackEnemy	6
+#macro state_return			7
 
 #macro chicken_moving		0
 #macro chicken_drinking		1

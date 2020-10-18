@@ -2,6 +2,11 @@
 if (hspeed > 0) { image_xscale = 1 };
 if (hspeed < 0) { image_xscale = -1 };
 
+if (distance_to_point(room_width/2,room_height/2) > 300)
+{
+	instance_create_depth(room_width/2, room_height/2,depth,obj_worker);
+	instance_destroy();
+}
 
 // -- Ai state machine -- 
 switch (state) {
@@ -127,7 +132,7 @@ switch (state) {
 		if (instance_exists(target)) {
 		if (ds_list_find_index(global.destroyed_list, target.id) = -1)
 		{
-		
+			
 			motion_set(point_direction(x, y, target.x, target.y), move_speed);
 			
 		};

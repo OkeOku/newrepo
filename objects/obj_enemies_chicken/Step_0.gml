@@ -70,7 +70,7 @@ if (hp > 0) {
 				
 				}	
 				//attack
-				instance_nearest(x,y,obj_building).growth -= 3;
+				instance_nearest(x,y,obj_building).growth -= .3;
 				state = chicken_chewing;
 				wait = 100;
 				break;

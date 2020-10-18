@@ -6,3 +6,4 @@ sprite_head = spr_building_basic_head;
 sprite_index = sprite_head;
 
 strength = 5;
+growed = false // hacky fix
