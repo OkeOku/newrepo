@@ -90,14 +90,9 @@ if (hp > 0) {
 			motion_set(escape_dir, move_speed / 2);
 		
 			// Break
-			if (
-				x < -32 ||
-				x > room_width + 32 ||
-				y < -32 ||
-				y > 304 // 272 + 32
-			) {
+			if (distance_to_point(room_width / 2, room_height / 2) > 500) {
 			
-				instance_destroy();
+				instance_destroy()
 				global.water -= 1;
 			
 			};

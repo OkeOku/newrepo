@@ -7,6 +7,7 @@ global.plant_what_now = obj_building_wall;
 
 global.water			= 10
 global.seeds			= 40;
+global.seeds_buffer		= 0;
 global.building_list	= ds_list_create();
 global.destroyed_list	= ds_list_create();
 
@@ -20,6 +21,8 @@ global.destroyed_list	= ds_list_create();
 #macro state_fillWater		2
 #macro state_gotoPlants		3
 #macro state_waterPlants	4
+#macro state_gotoEnemies	5
+#macro state_attackEnemy	6
 
 #macro chicken_moving		0
 #macro chicken_drinking		1

@@ -1,3 +1,14 @@
+if (hp <= 0) {
+	
+	global.seeds_buffer += seed_reward;
+	seed_reward = 0;
+	speed = 0;
+	sprite_index = sprite_death;
+	
+	audio_play_sound(snd_death, 1, false);
+	
+}
+
 if (hp > 0) {
 
 	// -- Ai --
@@ -25,6 +36,15 @@ if (hp > 0) {
 				speed = 0;
 			
 			}	
+			if (instance_exists(obj_carrot))
+			{
+			if (distance_to_point(instance_nearest(x,y,obj_carrot).x, instance_nearest(x,y,obj_carrot).y) < 7) {
+			
+				state = chicken_fighting;
+				speed = 0;
+			
+			}	
+			}
 			};
 		
 		break;
@@ -50,14 +70,33 @@ if (hp > 0) {
 				
 				}	
 				//attack
-				instance_nearest(x,y,obj_building).growth -= 0.5;
+				instance_nearest(x,y,obj_building).growth -= 0.3;
 				state = chicken_chewing;
 				wait = 100;
+				break;
 			}
-			else
+			if (instance_exists(obj_carrot))
 			{
+				if (distance_to_point(instance_nearest(x,y,obj_carrot).x, instance_nearest(x,y,obj_carrot).y) > 10) {
+			
+					if (water >= 80)
+					{
+						state = chicken_fleeing;
+					}
+					else
+					{
+						state = chicken_moving;
+					}
+				
+				}	
+				instance_nearest(x,y,obj_carrot).hp -= 0.5;
+				state = chicken_chewing;
+				wait = 100;
+				break;
+				}
+				
 				state = chicken_moving;
-			}
+				break;
 			
 		break;
 	
@@ -88,7 +127,7 @@ if (hp > 0) {
 			motion_set(escape_dir, move_speed / 2);
 		
 			// Break
-			if (distance_to_point(room_width / 2, room_height / 2) > 1200) {
+			if (distance_to_point(room_width / 2, room_height / 2) > 300) {
 			
 				instance_destroy()
 				global.water -= 1;

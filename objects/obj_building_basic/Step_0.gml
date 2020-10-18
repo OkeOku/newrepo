@@ -3,7 +3,7 @@ event_inherited();
 // Fight
 if (growth = sprite_get_number(sprite_base) - 1) {
 	
-	if (instance_exists(obj_enemies)) {
+	if (instance_exists(obj_enemies) && distance_to_object(obj_enemies)<100) {
 		
 		if (reload > 0) {
 			

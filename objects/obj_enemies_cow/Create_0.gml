@@ -6,5 +6,5 @@ water		= 0;
 escape_dir	= irandom(359);
 image_speed = 0.2;
 rot_left	= true;
-seed_reward = choose(10,20);
+seed_reward = choose(5,7);
 sprite_death = spr_enemy_cow_death_animation;

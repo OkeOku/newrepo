@@ -125,13 +125,19 @@ switch (state) {
 		
 		// Action
 		if (instance_exists(target)) {
+		if (ds_list_find_index(global.destroyed_list, target.id) = -1)
+		{
 		
 			motion_set(point_direction(x, y, target.x, target.y), move_speed);
 			
 		};
+		}
 		
 		// Break
 		if (instance_exists(target)) {
+		if (ds_list_find_index(global.destroyed_list, target.id) = -1)
+		{
+		
 			if (!is_undefined(target.x)) {
 				if (distance_to_point(target.x + 8, target.y + 8) < 8) {
 			
@@ -140,6 +146,7 @@ switch (state) {
 			
 				};
 			};
+		}
 		};
 		
 	break;
@@ -156,8 +163,10 @@ switch (state) {
 		if (water = 0) {
 			
 			state = state_idle;
-			
 			if (instance_exists(target)) {
+			if (ds_list_find_index(global.destroyed_list, target.id) = -1)
+			{
+			
 			
 				if (!is_undefined(target.growth)) {
 				if (target.growth < sprite_get_number(target.sprite_base) - 1) { target.growth += 1 };
@@ -166,6 +175,7 @@ switch (state) {
 				
 				};
 			
+			};
 			};
 		};
 		
