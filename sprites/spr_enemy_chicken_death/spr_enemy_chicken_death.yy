@@ -21,18 +21,18 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 8,
-  "gridY": 8,
+  "gridX": 0,
+  "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ebedd8d1-7e13-4a1c-8e58-9f4ff7449944","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ebedd8d1-7e13-4a1c-8e58-9f4ff7449944","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"LayerId":{"name":"a079887a-7604-4a57-977d-7a0a2bc97aa6","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_chicken_death","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","name":"ebedd8d1-7e13-4a1c-8e58-9f4ff7449944","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1060e61b-8850-443a-ba5c-87c5a0d29998","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1060e61b-8850-443a-ba5c-87c5a0d29998","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"LayerId":{"name":"c0552f9f-a062-4a4a-b879-896cbdf011d9","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_chicken_death","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","name":"1060e61b-8850-443a-ba5c-87c5a0d29998","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_enemy_chicken_death","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f434939a-5a29-4df8-9a0d-7ef0a90f1372","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ebedd8d1-7e13-4a1c-8e58-9f4ff7449944","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"af94e641-4b64-47ff-8811-0c1564ac8784","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1060e61b-8850-443a-ba5c-87c5a0d29998","path":"sprites/spr_enemy_chicken_death/spr_enemy_chicken_death.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a079887a-7604-4a57-977d-7a0a2bc97aa6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c0552f9f-a062-4a4a-b879-896cbdf011d9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "chicken",
